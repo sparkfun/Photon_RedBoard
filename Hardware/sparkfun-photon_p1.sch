@@ -16168,6 +16168,14 @@ Various fiducial points for machine vision alignment.</description>
 <vertex x="9" y="-10"/>
 <vertex x="19.55" y="-10"/>
 </polygon>
+<wire x1="-7.493" y1="10.16" x2="-7.493" y2="8.89" width="0.127" layer="41"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="8.89" width="0.127" layer="41"/>
+<wire x1="7.3152" y1="8.509" x2="8.5852" y2="8.509" width="0.127" layer="41"/>
+<wire x1="7.3152" y1="-8.4836" x2="8.5852" y2="-8.4836" width="0.127" layer="41"/>
+<wire x1="7.5438" y1="-10.1346" x2="7.5438" y2="-8.8646" width="0.127" layer="41"/>
+<wire x1="-7.4422" y1="-10.1346" x2="-7.4422" y2="-8.8646" width="0.127" layer="41"/>
+<wire x1="-7.3152" y1="-8.4836" x2="-8.5852" y2="-8.4836" width="0.127" layer="41"/>
+<wire x1="-7.3152" y1="8.4836" x2="-8.5852" y2="8.4836" width="0.127" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -16294,6 +16302,8 @@ Various fiducial points for machine vision alignment.</description>
 <pin name="UART1_CTS(PA11)" x="-35.56" y="20.32" length="short"/>
 <pin name="UART1_RXD(PA10)" x="-35.56" y="17.78" length="short"/>
 <pin name="UART1_TXD(PA9)" x="-35.56" y="15.24" length="short"/>
+<text x="-33.02" y="51.054" size="1.778" layer="95">&gt;Name</text>
+<text x="33.02" y="51.054" size="1.778" layer="96" align="bottom-right">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -20251,7 +20261,9 @@ Some male, some female. Watch your step!</description>
 <connect gate="G$1" pin="VCC" pad="VBUS1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-11752" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -21462,6 +21474,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-1.1" y="-0.4" radius="0.1" width="0.2032" layer="21"/>
 <text x="-1.2" y="2.45" size="0.508" layer="25">&gt;Name</text>
 <text x="-1.3" y="-3.1" size="0.508" layer="27">&gt;Value</text>
+<circle x="-2.0398" y="-1.2636" radius="0.1" width="0.2032" layer="21"/>
 </package>
 <package name="LED-0603">
 <wire x1="0.46" y1="0.17" x2="0" y2="0.17" width="0.2032" layer="21"/>
