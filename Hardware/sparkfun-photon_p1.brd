@@ -2841,9 +2841,9 @@ design rules under a new name.</description>
 <wire x1="33.909" y1="32.639" x2="36.83" y2="29.718" width="0.3048" layer="1"/>
 <wire x1="39.497" y1="21.59" x2="36.83" y2="24.257" width="0.3048" layer="1"/>
 <wire x1="36.83" y1="24.257" x2="36.83" y2="24.892" width="0.3048" layer="1"/>
-<wire x1="39.497" y1="21.59" x2="40.64" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="39.497" y1="21.59" x2="40.31" y2="21.59" width="0.3048" layer="1"/>
 <wire x1="36.83" y1="27.305" x2="36.83" y2="29.718" width="0.3048" layer="1"/>
-<wire x1="40.64" y1="21.59" x2="40.31" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="21.59" x2="40.31" y2="21.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="A5">
 <contactref element="JP5" pad="A5"/>
@@ -3255,9 +3255,9 @@ design rules under a new name.</description>
 <approved hash="4,1,0646c95ecbf8de48"/>
 <approved hash="4,1,6c1ab65b2e38176c"/>
 <approved hash="4,16,6c1ab65b2e38176c"/>
-<approved hash="19,1,d82e945a9af2d686"/>
 <approved hash="19,1,51a59dd19e9852ec"/>
 <approved hash="19,1,5811946596c45ab0"/>
+<approved hash="19,1,d82e945a9af2d686"/>
 <approved hash="4,1,2cc772b5a1628e47"/>
 <approved hash="4,1,1683448f56341b20"/>
 <approved hash="4,1,528f87330f7a1208"/>
