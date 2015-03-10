@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -411,7 +411,7 @@ chip</description>
 <wire x1="19.95" y1="10.4" x2="19.95" y2="-10.4" width="0.127" layer="21"/>
 <wire x1="19.95" y1="-10.4" x2="-8.85" y2="-10.4" width="0.127" layer="21"/>
 <wire x1="-8.85" y1="-10.4" x2="-8.85" y2="10.4" width="0.127" layer="21"/>
-<circle x="7.1" y="10.9" radius="0.4" width="0" layer="21"/>
+<circle x="8.37" y="10.9" radius="0.4" width="0" layer="21"/>
 <text x="0" y="6.35" size="0.8128" layer="25" align="center">&gt;Name</text>
 <text x="0" y="5.08" size="0.8128" layer="27" align="center">&gt;Value</text>
 <polygon width="0.127" layer="41">
