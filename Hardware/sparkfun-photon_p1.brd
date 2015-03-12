@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -162,8 +162,7 @@
 <wire x1="66.04" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="20.32" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-left">D7</text>
 <text x="20.32" y="10.795" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-left">POWER</text>
-<text x="18.161" y="28.829" size="1.778" layer="21" font="vector" ratio="15" align="top-left">Photon
-P1R3</text>
+<text x="18.796" y="28.067" size="1.778" layer="21" font="vector" ratio="15" align="top-left">Photon P1R3</text>
 <text x="9.652" y="29.337" size="1.524" layer="21" font="vector" ratio="15" rot="R90" align="top-center">MODE</text>
 <text x="9.652" y="48.387" size="1.524" layer="21" font="vector" ratio="15" rot="R90" align="top-center">RESET</text>
 <wire x1="41.275" y1="40.259" x2="42.545" y2="40.259" width="0.2032" layer="21"/>
@@ -2307,8 +2306,8 @@ design rules under a new name.</description>
 <element name="C12" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="54.61" y="34.29">
 <attribute name="PROD_ID" value="CAP-00810" x="54.61" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="13.335" y="27.559"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="32.766" y="26.543"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="13.462" y="27.178"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.369" y="21.463"/>
 <element name="U1" library="sparkfun_photon_temp" package="WM-N-BM-14" value="WM-N-BM-14" x="48.26" y="21.59">
 <attribute name="PROD_ID" value="IC-12589" x="48.26" y="21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -2592,30 +2591,26 @@ design rules under a new name.</description>
 <contactref element="U1" pad="62"/>
 <wire x1="9.74" y1="39.06" x2="11.43" y2="39.06" width="0.3048" layer="1"/>
 <via x="11.43" y="39.06" extent="1-16" drill="0.508"/>
-<via x="48.895" y="27.59" extent="1-16" drill="0.508"/>
+<via x="48.26" y="28.225" extent="1-16" drill="0.508"/>
 <wire x1="11.43" y1="39.06" x2="37.425" y2="39.06" width="0.3048" layer="16"/>
-<wire x1="48.895" y1="27.59" x2="37.425" y2="39.06" width="0.3048" layer="16"/>
+<wire x1="48.26" y1="28.225" x2="37.425" y2="39.06" width="0.3048" layer="16"/>
 <wire x1="56.21" y1="27.59" x2="54.452" y2="27.59" width="0.3048" layer="1"/>
 <wire x1="54.452" y1="27.59" x2="53.817" y2="28.225" width="0.3048" layer="1"/>
-<wire x1="53.817" y1="28.225" x2="52.197" y2="28.225" width="0.3048" layer="1"/>
-<wire x1="52.197" y1="28.225" x2="51.562" y2="27.59" width="0.3048" layer="1"/>
-<wire x1="51.562" y1="27.59" x2="48.895" y2="27.59" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="28.225" x2="53.817" y2="28.225" width="0.3048" layer="1"/>
 </signal>
 <signal name="MCU_USB_D+">
 <contactref element="R2" pad="2"/>
 <contactref element="U1" pad="61"/>
 <wire x1="9.74" y1="37.79" x2="11.43" y2="37.79" width="0.3048" layer="1"/>
 <via x="11.43" y="37.79" extent="1-16" drill="0.508"/>
-<via x="49.784" y="26.59" extent="1-16" drill="0.508"/>
-<wire x1="48.594" y1="26.59" x2="37.2618" y2="37.9222" width="0.3048" layer="16"/>
 <wire x1="37.2618" y1="37.9222" x2="11.5622" y2="37.9222" width="0.3048" layer="16"/>
 <wire x1="11.5622" y1="37.9222" x2="11.43" y2="37.79" width="0.3048" layer="16"/>
 <wire x1="56.21" y1="26.59" x2="54.563" y2="26.59" width="0.3048" layer="1"/>
 <wire x1="54.563" y1="26.59" x2="53.928" y2="27.225" width="0.3048" layer="1"/>
-<wire x1="49.784" y1="26.59" x2="48.594" y2="26.59" width="0.3048" layer="16"/>
-<wire x1="53.928" y1="27.225" x2="52.324" y2="27.225" width="0.3048" layer="1"/>
-<wire x1="52.324" y1="27.225" x2="51.689" y2="26.59" width="0.3048" layer="1"/>
-<wire x1="51.689" y1="26.59" x2="49.784" y2="26.59" width="0.3048" layer="1"/>
+<via x="49.229" y="27.225" extent="1-16" drill="0.508"/>
+<wire x1="49.229" y1="27.225" x2="53.928" y2="27.225" width="0.3048" layer="1"/>
+<wire x1="49.229" y1="27.225" x2="47.959" y2="27.225" width="0.3048" layer="16"/>
+<wire x1="47.959" y1="27.225" x2="37.2618" y2="37.9222" width="0.3048" layer="16"/>
 </signal>
 <signal name="VUSB">
 <contactref element="JP1" pad="VBUS1"/>
@@ -3269,10 +3264,4 @@ design rules under a new name.</description>
 </errors>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
