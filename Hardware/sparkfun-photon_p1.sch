@@ -22463,14 +22463,21 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <attribute name="DESIGNER" value="Jim Lindblom"/>
 </part>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
+<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="390OHM1/10W1%(0603)" device="" value="390"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="240OHM1/10W1%(0603)" device="" value="240"/>
 <part name="U2" library="SparkFun-PowerIC" deviceset="V_REG_LM1117" device="SOT223"/>
+<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP6" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP7" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="TP10" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
 </parts>
 <sheets>
 <sheet>
@@ -22516,7 +22523,7 @@ Regulator</text>
 <wire x1="177.8" y1="127" x2="147.32" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <text x="149.86" y="7.62" size="2.54" layer="94" align="center-left">Based on the Photon by Spark.io.</text>
 <text x="172.72" y="12.7" size="2.54" layer="94" align="center-left">Jim Lindblom</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">v02</text>
 <text x="60.96" y="149.86" size="1.27" layer="97">Input Voltage
 Range: 4.0-15V</text>
 <text x="152.4" y="139.7" size="1.27" layer="97">Footprint include Arduino-
@@ -22630,6 +22637,27 @@ standard standoff holes</text>
 <instance part="R4" gate="G$1" x="114.3" y="154.94" rot="R90"/>
 <instance part="R7" gate="G$1" x="124.46" y="162.56" rot="R90"/>
 <instance part="U2" gate="G$1" x="114.3" y="172.72"/>
+<instance part="TP4" gate="G$1" x="93.98" y="73.66" smashed="yes">
+<attribute name="NAME" x="97.282" y="73.66" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="93.98" y="71.12" smashed="yes">
+<attribute name="NAME" x="97.282" y="71.12" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP6" gate="G$1" x="93.98" y="68.58" smashed="yes">
+<attribute name="NAME" x="97.282" y="68.58" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP7" gate="G$1" x="93.98" y="66.04" smashed="yes">
+<attribute name="NAME" x="97.282" y="66.04" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP8" gate="G$1" x="93.98" y="63.5" smashed="yes">
+<attribute name="NAME" x="97.282" y="63.5" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP9" gate="G$1" x="93.98" y="60.96" smashed="yes">
+<attribute name="NAME" x="97.282" y="60.96" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP10" gate="G$1" x="93.98" y="78.74" smashed="yes">
+<attribute name="NAME" x="97.282" y="78.74" size="1.778" layer="95" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23191,9 +23219,9 @@ standard standoff holes</text>
 <label x="134.62" y="88.9" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="UART2_RTS(PA0)"/>
-<wire x1="20.32" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
-<label x="17.78" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="UART2_CTS(PA1)"/>
+<wire x1="20.32" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
+<label x="17.78" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RGB_GREEN" class="0">
@@ -23478,14 +23506,14 @@ standard standoff holes</text>
 </net>
 <net name="WKP" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="UART2_CTS(PA1)"/>
-<wire x1="20.32" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
-<label x="17.78" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="210.82" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="213.36" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP5" gate="G$1" pin="D8"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="UART2_RTS(PA0)"/>
+<wire x1="20.32" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
+<label x="17.78" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -23584,25 +23612,74 @@ standard standoff holes</text>
 <label x="165.1" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="BTCX_TXCONF" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BTCX_TXCONF"/>
 <wire x1="91.44" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="BTCX_STATUS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BTCX_STATUS"/>
 <wire x1="91.44" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="BTCX_RF_ACTIVE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BTCX_RF_ACTIVE"/>
 <wire x1="91.44" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_JTAG_TDI" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_JTAG_TDI"/>
+<wire x1="91.44" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_JTAG_TCK" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_JTAG_TCK"/>
+<wire x1="91.44" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_JTAG_TRST" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_JTAG_TRST"/>
+<wire x1="91.44" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_JTAG_TMS" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_JTAG_TMS"/>
+<wire x1="91.44" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_JTAG_TDO" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_JTAG_TDO"/>
+<wire x1="91.44" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="WL_SLEEP_CLK" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="WL_SLEEP_CLK"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="(PA8)TESTMODE"/>
+<wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
