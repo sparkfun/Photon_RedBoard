@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -2781,10 +2781,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="RGB_RED">
 <contactref element="R9" pad="2"/>
-<contactref element="U1" pad="30"/>
-<wire x1="40.31" y1="15.59" x2="30.892" y2="15.59" width="0.3048" layer="1"/>
-<wire x1="30.892" y1="15.59" x2="29.972" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="28.79" y1="16.51" x2="29.972" y2="16.51" width="0.3048" layer="1"/>
+<contactref element="U1" pad="29"/>
+<wire x1="40.31" y1="16.59" x2="28.87" y2="16.59" width="0.3048" layer="1"/>
+<wire x1="28.87" y1="16.59" x2="28.79" y2="16.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="RGB_GREEN">
 <contactref element="R8" pad="2"/>
@@ -2860,7 +2859,7 @@ design rules under a new name.</description>
 <wire x1="36.195" y1="27.2288" x2="36.4744" y2="27.5082" width="0.3048" layer="16"/>
 <wire x1="36.4744" y1="27.5082" x2="36.4744" y2="30.0736" width="0.3048" layer="1"/>
 </signal>
-<signal name="A5">
+<signal name="A5/SPI_MOSI">
 <contactref element="JP5" pad="A5"/>
 <contactref element="JP5" pad="D11"/>
 <contactref element="U1" pad="23"/>
@@ -2889,7 +2888,7 @@ design rules under a new name.</description>
 <wire x1="35.179" y1="24.13" x2="35.179" y2="28.067" width="0.3048" layer="16"/>
 <wire x1="35.179" y1="28.067" x2="35.56" y2="28.448" width="0.3048" layer="16"/>
 </signal>
-<signal name="A3">
+<signal name="A3/SPI_SCK">
 <contactref element="JP5" pad="A3"/>
 <contactref element="JP5" pad="D13"/>
 <contactref element="U1" pad="22"/>
@@ -2909,7 +2908,7 @@ design rules under a new name.</description>
 <wire x1="47.752" y1="3.81" x2="47.752" y2="1.651" width="0.3048" layer="16"/>
 <wire x1="40.31" y1="23.59" x2="38.259" y2="23.59" width="0.3048" layer="1"/>
 </signal>
-<signal name="A4">
+<signal name="A4/SPI_MISO">
 <contactref element="JP5" pad="A4"/>
 <contactref element="JP5" pad="D12"/>
 <contactref element="U1" pad="21"/>
@@ -3147,9 +3146,9 @@ design rules under a new name.</description>
 <wire x1="49.53" y1="12.192" x2="51.562" y2="12.192" width="0.3048" layer="16"/>
 </signal>
 <signal name="WKP">
-<via x="38.45" y="16.606" extent="1-16" drill="0.508"/>
+<via x="38.45" y="15.59" extent="1-16" drill="0.508"/>
 <wire x1="38.45" y1="19.081" x2="33.401" y2="24.13" width="0.3048" layer="16"/>
-<wire x1="38.45" y1="16.606" x2="38.45" y2="19.081" width="0.3048" layer="16"/>
+<wire x1="38.45" y1="15.59" x2="38.45" y2="19.081" width="0.3048" layer="16"/>
 <contactref element="JP5" pad="D8"/>
 <wire x1="33.401" y1="24.13" x2="33.401" y2="31.369" width="0.3048" layer="16"/>
 <via x="36.4236" y="31.6484" extent="1-16" drill="0.508"/>
@@ -3161,9 +3160,8 @@ design rules under a new name.</description>
 <wire x1="34.544" y1="33.528" x2="34.544" y2="35.56" width="0.3048" layer="1"/>
 <wire x1="34.036" y1="32.004" x2="36.068" y2="32.004" width="0.3048" layer="16"/>
 <wire x1="36.068" y1="32.004" x2="36.4236" y2="31.6484" width="0.3048" layer="16"/>
-<contactref element="U1" pad="29"/>
-<wire x1="40.31" y1="16.59" x2="38.466" y2="16.59" width="0.3048" layer="1"/>
-<wire x1="38.466" y1="16.59" x2="38.45" y2="16.606" width="0.3048" layer="1"/>
+<contactref element="U1" pad="30"/>
+<wire x1="40.31" y1="15.59" x2="38.45" y2="15.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="C5" pad="1"/>
