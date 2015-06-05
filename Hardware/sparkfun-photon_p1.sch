@@ -22246,6 +22246,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
 <circle x="0" y="0" radius="0.381" width="0" layer="30"/>
 </package>
+<package name="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<description>Solder jumper, small, shorted with trace. No paste layer. Trace is cuttable.</description>
+<wire x1="0.8255" y1="-1.016" x2="-0.8255" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="0.8255" y1="1.016" x2="1.0795" y2="0.762" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="0.762" x2="-0.8255" y2="1.016" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.0795" y1="-0.762" x2="-0.8255" y2="-1.016" width="0.2032" layer="21" curve="90"/>
+<wire x1="0.8255" y1="-1.016" x2="1.0795" y2="-0.762" width="0.2032" layer="21" curve="90"/>
+<wire x1="-0.8255" y1="1.016" x2="0.8255" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="PAD-JUMPER-2-NC_BY_TRACE_NO_SILK">
+<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.2032" layer="1"/>
+<smd name="1" x="-0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.508" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="0" y="0.889" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.4064" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TEST-POINT">
@@ -22254,6 +22275,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;Name</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;Value</text>
 <pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
+</symbol>
+<symbol name="PAD-JUMPER-2-NC_BY_TRACE">
+<wire x1="0.381" y1="0.635" x2="1.016" y2="0" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.016" y1="0" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-90" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -22298,6 +22331,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <device name="TP_15TH_THRU" package="TP_15TH">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JUMPER-PAD-2-NC_BY_TRACE" prefix="SJ">
+<gates>
+<gate name="G$1" symbol="PAD-JUMPER-2-NC_BY_TRACE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NO_SILK" package="PAD-JUMPER-2-NC_BY_TRACE_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22478,6 +22536,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
 <part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
 <part name="TP10" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU"/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="" value="PWR-LED"/>
 </parts>
 <sheets>
 <sheet>
@@ -22589,8 +22648,8 @@ standard standoff holes</text>
 <attribute name="NAME" x="120.8786" y="110.49" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="120.904" y="105.41" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="LED1" gate="G$1" x="109.22" y="96.52"/>
-<instance part="R3" gate="G$1" x="109.22" y="106.68" rot="R90"/>
+<instance part="LED1" gate="G$1" x="109.22" y="104.14"/>
+<instance part="R3" gate="G$1" x="109.22" y="114.3" rot="R90"/>
 <instance part="GND6" gate="1" x="109.22" y="81.28"/>
 <instance part="GND14" gate="1" x="182.88" y="132.08"/>
 <instance part="SUPPLY10" gate="G$1" x="172.72" y="160.02"/>
@@ -22622,7 +22681,7 @@ standard standoff holes</text>
 <attribute name="VERSION" x="0" y="0" size="2.54" layer="96" align="center-left" display="off"/>
 </instance>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="SUPPLY5" gate="G$1" x="109.22" y="114.3"/>
+<instance part="SUPPLY5" gate="G$1" x="109.22" y="121.92"/>
 <instance part="TP3" gate="G$1" x="93.98" y="86.36" smashed="yes">
 <attribute name="NAME" x="97.282" y="86.36" size="1.778" layer="95" align="center-left"/>
 </instance>
@@ -22658,6 +22717,7 @@ standard standoff holes</text>
 <instance part="TP10" gate="G$1" x="93.98" y="78.74" smashed="yes">
 <attribute name="NAME" x="97.282" y="78.74" size="1.778" layer="95" align="center-left"/>
 </instance>
+<instance part="SJ1" gate="G$1" x="109.22" y="91.44" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -22768,11 +22828,6 @@ standard standoff holes</text>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="119.38" y1="91.44" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="109.22" y1="83.82" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -22916,6 +22971,11 @@ standard standoff holes</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="109.22" y1="86.36" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -23029,7 +23089,7 @@ standard standoff holes</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="109.22" y1="114.3" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="121.92" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -23269,7 +23329,7 @@ standard standoff holes</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="101.6" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DAC" class="0">
@@ -23680,6 +23740,13 @@ standard standoff holes</text>
 <pinref part="U1" gate="G$1" pin="(PA8)TESTMODE"/>
 <wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="TP10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="109.22" y1="96.52" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
