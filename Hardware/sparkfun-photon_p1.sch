@@ -23427,7 +23427,7 @@ standard standoff holes</text>
 <label x="220.98" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D1" class="0">
+<net name="D1/SCL" class="0">
 <segment>
 <wire x1="210.82" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <label x="213.36" y="137.16" size="1.27" layer="95" xref="yes"/>
@@ -23439,7 +23439,7 @@ standard standoff holes</text>
 <label x="17.78" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D0" class="0">
+<net name="D0/SDA" class="0">
 <segment>
 <wire x1="210.82" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="213.36" y="139.7" size="1.27" layer="95" xref="yes"/>
@@ -23540,7 +23540,7 @@ standard standoff holes</text>
 <pinref part="JP4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="PB0" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO1(PB0)"/>
 <wire x1="20.32" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
@@ -23552,7 +23552,7 @@ standard standoff holes</text>
 <label x="165.1" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PB1" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO2(PB1)"/>
 <wire x1="20.32" y1="66.04" x2="17.78" y2="66.04" width="0.1524" layer="91"/>
@@ -23564,7 +23564,7 @@ standard standoff holes</text>
 <label x="165.1" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC0" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO3(PC0)"/>
 <wire x1="20.32" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
@@ -23576,7 +23576,7 @@ standard standoff holes</text>
 <label x="165.1" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO6(PC4)"/>
 <wire x1="20.32" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
@@ -23588,7 +23588,7 @@ standard standoff holes</text>
 <label x="165.1" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC13" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO9(PC13)"/>
 <wire x1="20.32" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
@@ -23600,7 +23600,7 @@ standard standoff holes</text>
 <label x="165.1" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PC1" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO12(PC1)"/>
 <wire x1="20.32" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
