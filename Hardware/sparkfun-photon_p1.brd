@@ -162,7 +162,8 @@
 <wire x1="66.04" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="20.32" y="22.225" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-left">D7</text>
 <text x="20.32" y="10.795" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-left">POWER</text>
-<text x="18.796" y="28.067" size="1.27" layer="21" font="vector" ratio="15" align="top-left">Photon RedBoard</text>
+<text x="18.796" y="29.337" size="1.778" layer="21" font="vector" ratio="15" align="top-left">Photon
+  RedBoard</text>
 <text x="9.652" y="29.337" size="1.524" layer="21" font="vector" ratio="15" rot="R90" align="top-center">MODE</text>
 <text x="9.652" y="48.387" size="1.524" layer="21" font="vector" ratio="15" rot="R90" align="top-center">RESET</text>
 <wire x1="41.275" y1="40.259" x2="42.545" y2="40.259" width="0.2032" layer="21"/>
@@ -208,7 +209,7 @@
 <text x="50.8" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">D5</text>
 <text x="48.26" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">D6</text>
 <text x="45.72" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">D7</text>
-<text x="39.116" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">DAC</text>
+<text x="39.116" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">DAC/A6</text>
 <text x="36.576" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">!SS!/A2</text>
 <text x="34.036" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">MOSI/A5</text>
 <text x="31.496" y="49.53" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-right">MISO/A4</text>
@@ -230,7 +231,7 @@
 <text x="1.524" y="1.27" size="1.27" layer="21" font="vector" ratio="15" align="center-right">-</text>
 <text x="4.826" y="1.27" size="1.27" layer="21" font="vector" ratio="15" rot="R180" align="center-right">+</text>
 <text x="45.72" y="-11.43" size="1.27" layer="51" font="vector" ratio="15">Jim Lindblom</text>
-<text x="26.67" y="-13.97" size="1.27" layer="51" font="vector" ratio="15">Based on the Spark Photon, by Spark.io</text>
+<text x="26.67" y="-13.97" size="1.27" layer="51" font="vector" ratio="15">Based on the Particle Photon, by Particle.io</text>
 <dimension x1="0" y1="0" x2="13.97" y2="2.54" x3="6.985" y3="-5.08" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch" precision="3"/>
 <dimension x1="68.58" y1="5.08" x2="0" y2="5.08" x3="34.29" y3="-20.32" textsize="1.27" textratio="15" layer="47" unit="inch" precision="3"/>
 <dimension x1="66.04" y1="7.62" x2="0" y2="7.62" x3="33.02" y3="-17.78" textsize="1.27" textratio="15" layer="47" unit="inch" precision="3"/>
@@ -2332,8 +2333,8 @@ design rules under a new name.</description>
 <element name="C12" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="54.61" y="34.29">
 <attribute name="PROD_ID" value="CAP-00810" x="54.61" y="34.29" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="13.462" y="27.178"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="28.448" y="22.987"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="13.462" y="28.448"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="OSHW-LOGOM" x="31.242" y="20.447"/>
 <element name="U1" library="sparkfun_photon_temp" package="WM-N-BM-14" value="WM-N-BM-14" x="48.26" y="21.59">
 <attribute name="PROD_ID" value="IC-12589" x="48.26" y="21.59" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -3063,9 +3064,9 @@ design rules under a new name.</description>
 <wire x1="18.796" y1="50.927" x2="18.796" y2="37.084" width="0.3048" layer="1"/>
 <wire x1="39.37" y1="9.779" x2="36.83" y2="12.319" width="0.3048" layer="16"/>
 <wire x1="36.83" y1="12.319" x2="36.83" y2="19.05" width="0.3048" layer="16"/>
-<via x="31.75" y="24.13" extent="1-16" drill="0.508"/>
-<wire x1="31.75" y1="24.13" x2="18.796" y2="37.084" width="0.3048" layer="1"/>
-<wire x1="36.83" y1="19.05" x2="31.75" y2="24.13" width="0.3048" layer="16"/>
+<via x="29.21" y="26.67" extent="1-16" drill="0.508"/>
+<wire x1="29.21" y1="26.67" x2="18.796" y2="37.084" width="0.3048" layer="1"/>
+<wire x1="36.83" y1="19.05" x2="29.21" y2="26.67" width="0.3048" layer="16"/>
 <wire x1="43.31" y1="12.09" x2="43.31" y2="10.795" width="0.3048" layer="1"/>
 <wire x1="43.31" y1="10.795" x2="43.183" y2="10.668" width="0.3048" layer="1"/>
 <wire x1="39.37" y1="9.779" x2="42.294" y2="9.779" width="0.3048" layer="16"/>
@@ -3076,12 +3077,12 @@ design rules under a new name.</description>
 <contactref element="U1" pad="36"/>
 <via x="43.04" y="13.589" extent="1-16" drill="0.508"/>
 <wire x1="21.336" y1="50.673" x2="21.336" y2="35.814" width="0.3048" layer="1"/>
-<wire x1="21.336" y1="35.814" x2="31.75" y2="25.4" width="0.3048" layer="1"/>
-<via x="31.75" y="25.4" extent="1-16" drill="0.508"/>
+<wire x1="21.336" y1="35.814" x2="29.21" y2="27.94" width="0.3048" layer="1"/>
+<via x="29.21" y="27.94" extent="1-16" drill="0.508"/>
 <wire x1="37.465" y1="19.304" x2="32.766" y2="24.003" width="0.3048" layer="16"/>
 <wire x1="37.465" y1="14.605" x2="37.465" y2="19.304" width="0.3048" layer="16"/>
 <wire x1="32.766" y1="24.003" x2="32.766" y2="24.384" width="0.3048" layer="16"/>
-<wire x1="32.766" y1="24.384" x2="31.75" y2="25.4" width="0.3048" layer="16"/>
+<wire x1="32.766" y1="24.384" x2="29.21" y2="27.94" width="0.3048" layer="16"/>
 <wire x1="44.31" y1="12.09" x2="44.31" y2="13.094" width="0.3048" layer="1"/>
 <wire x1="44.31" y1="13.094" x2="43.815" y2="13.589" width="0.3048" layer="1"/>
 <wire x1="43.815" y1="13.589" x2="43.04" y2="13.589" width="0.3048" layer="1"/>
