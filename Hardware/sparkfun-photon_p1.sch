@@ -22660,7 +22660,7 @@ Regulator</text>
 <text x="2.54" y="182.88" size="2.54" layer="94" align="top-left">USB (Power Supply
 &amp; Interface)</text>
 <text x="149.86" y="182.88" size="2.54" layer="94" align="top-left">R3 Footprint</text>
-<text x="149.86" y="124.46" size="2.54" layer="94" align="top-left">Extra Pins</text>
+<text x="149.86" y="124.46" size="2.54" layer="94" align="top-left">Spare Pins</text>
 <wire x1="177.8" y1="127" x2="203.2" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="203.2" y1="127" x2="248.92" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="177.8" y1="78.74" x2="177.8" y2="127" width="0.2032" layer="97" style="shortdash"/>
