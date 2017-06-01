@@ -18244,14 +18244,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="SHIELD3" x="-0.97858125" y="-1.34908125" dx="2.5" dy="1.425" layer="1" rot="R90"/>
 <smd name="P$10" x="2.48141875" y="1.59791875" dx="1.3" dy="1" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
 <polygon width="0.08" layer="1">
-<vertex x="-3.79358125" y="0.65591875"/>
-<vertex x="-3.79358125" y="-0.09408125"/>
-<vertex x="-3.31858125" y="-0.09408125"/>
+<vertex x="-3.79358125" y="0.64591875"/>
+<vertex x="-3.79858125" y="0.00591875"/>
+<vertex x="-3.32358125" y="0.00591875"/>
 <vertex x="-3.31858125" y="-1.88408125" curve="90"/>
 <vertex x="-2.91358125" y="-2.17908125"/>
 <vertex x="-2.31358125" y="-2.17908125" curve="90"/>
 <vertex x="-1.96858125" y="-1.89408125"/>
-<vertex x="-1.96858125" y="0.65591875"/>
+<vertex x="-1.96358125" y="0.64591875"/>
 </polygon>
 <smd name="P$2" x="2.48741875" y="1.59391875" dx="1.3" dy="1" layer="1" roundness="100" rot="R90"/>
 <text x="-2.83858125" y="2.98591875" size="1.27" layer="25" font="vector">&gt;NAME</text>
@@ -18269,27 +18269,19 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-3.87858125" y1="2.40091875" x2="3.92141875" y2="2.40091875" width="0.1" layer="47"/>
 <polygon width="0.08" layer="1">
 <vertex x="3.87641875" y="0.64591875"/>
-<vertex x="3.87641875" y="-0.08408125"/>
-<vertex x="3.37141875" y="-0.08408125"/>
+<vertex x="3.87641875" y="0.01091875"/>
+<vertex x="3.37141875" y="0.01091875"/>
 <vertex x="3.37141875" y="-1.87408125" curve="-90"/>
 <vertex x="2.96641875" y="-2.16908125"/>
 <vertex x="2.36641875" y="-2.16908125" curve="-90"/>
 <vertex x="2.04141875" y="-1.86408125"/>
 <vertex x="2.04141875" y="0.64591875"/>
 </polygon>
-<hole x="-2.65858125" y="-0.87908125" drill="0.66"/>
+<hole x="-2.69258125" y="-1.13408125" drill="0.7"/>
 <smd name="P$3" x="-2.65854375" y="-1.143784375" dx="2.1" dy="1.4" layer="16" roundness="100" rot="R90" stop="no" cream="no"/>
-<hole x="2.47681875" y="1.82091875" drill="0.66"/>
-<hole x="2.46141875" y="1.66551875" drill="0.66"/>
-<hole x="2.48141875" y="1.42551875" drill="0.66"/>
-<hole x="2.46681875" y="1.53631875" drill="0.66"/>
-<hole x="-2.65858125" y="-1.05908125" drill="0.66"/>
-<hole x="-2.65858125" y="-1.21908125" drill="0.66"/>
-<hole x="-2.64858125" y="-1.34908125" drill="0.66"/>
-<hole x="2.70141875" y="-0.89908125" drill="0.66"/>
-<hole x="2.70141875" y="-1.07908125" drill="0.66"/>
-<hole x="2.70141875" y="-1.23908125" drill="0.66"/>
-<hole x="2.71141875" y="-1.36908125" drill="0.66"/>
+<hole x="-2.69258125" y="-1.30008125" drill="0.7"/>
+<hole x="-2.69358125" y="-1.49908125" drill="0.7"/>
+<hole x="-2.69358125" y="-1.66408125" drill="0.7"/>
 <polygon width="0.1016" layer="29">
 <vertex x="-3.87858125" y="0.73151875"/>
 <vertex x="-1.87198125" y="0.73151875"/>
@@ -18299,14 +18291,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="-2.25298125" y="-2.26568125"/>
 <vertex x="-2.98958125" y="-2.26568125" curve="-90"/>
 <vertex x="-3.39598125" y="-1.88468125"/>
-<vertex x="-3.39598125" y="-0.18288125"/>
-<vertex x="-3.87858125" y="-0.18288125"/>
+<vertex x="-3.39098125" y="-0.11788125"/>
+<vertex x="-3.87358125" y="-0.11788125"/>
 </polygon>
 <polygon width="0.1016" layer="29">
 <vertex x="1.91261875" y="0.73151875"/>
 <vertex x="3.97001875" y="0.73151875"/>
-<vertex x="3.97001875" y="-0.18288125"/>
-<vertex x="3.46201875" y="-0.18288125"/>
+<vertex x="3.97001875" y="-0.10788125"/>
+<vertex x="3.46201875" y="-0.10788125"/>
 <vertex x="3.46201875" y="-1.85928125" curve="-90"/>
 <vertex x="3.08101875" y="-2.26568125"/>
 <vertex x="2.31901875" y="-2.26568125" curve="-90"/>
@@ -18336,10 +18328,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="3.38581875" y="-1.88468125"/>
 <vertex x="3.38581875" y="-0.13208125" curve="-90"/>
 </polygon>
-<hole x="-2.36918125" y="1.82091875" drill="0.66"/>
-<hole x="-2.35918125" y="1.69091875" drill="0.66"/>
-<hole x="-2.36918125" y="1.54091875" drill="0.66"/>
-<hole x="-2.36378125" y="1.43171875" drill="0.66"/>
+<hole x="-2.35918125" y="1.82091875" drill="0.66"/>
+<hole x="-2.34918125" y="1.69091875" drill="0.66"/>
+<hole x="-2.35918125" y="1.54091875" drill="0.66"/>
+<hole x="-2.35378125" y="1.43171875" drill="0.66"/>
 <polygon width="0.05" layer="31">
 <vertex x="-1.39858125" y="2.14391875"/>
 <vertex x="-1.14858125" y="2.14391875"/>
@@ -18370,6 +18362,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="1.45141875" y="0.51391875"/>
 <vertex x="1.20141875" y="0.51391875"/>
 </polygon>
+<hole x="2.48081875" y="1.82091875" drill="0.66"/>
+<hole x="2.49081875" y="1.69091875" drill="0.66"/>
+<hole x="2.48081875" y="1.54091875" drill="0.66"/>
+<hole x="2.48621875" y="1.43171875" drill="0.66"/>
+<hole x="2.76841875" y="-1.13408125" drill="0.7"/>
+<hole x="2.76741875" y="-1.30308125" drill="0.7"/>
+<hole x="2.76641875" y="-1.49608125" drill="0.7"/>
+<hole x="2.76641875" y="-1.66408125" drill="0.7"/>
 </package>
 <package name="POWER_JACK_SMD">
 <description>&lt;h3&gt;DC Barrel Power Jack/Connector -SMD&lt;/h3&gt;
