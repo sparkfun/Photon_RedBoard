@@ -21585,7 +21585,7 @@ Regulator</text>
 <wire x1="177.8" y1="127" x2="147.32" y2="127" width="0.2032" layer="97" style="shortdash"/>
 <text x="149.86" y="7.62" size="2.54" layer="94" align="center-left">Based on the Photon by Particle.io.</text>
 <text x="172.72" y="12.7" size="2.54" layer="94" align="center-left">Jim Lindblom</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">v11</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" align="center-left">v20</text>
 <text x="60.96" y="149.86" size="1.27" layer="97">Input Voltage
 Range: 4.0-15V</text>
 <text x="152.4" y="139.7" size="1.27" layer="97">Footprint include Arduino-
