@@ -145,6 +145,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -912,7 +914,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="SFE_LOGO_NAME_FLAME_.4">
-<polygon width="0.00508125" layer="21">
+<description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.4" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun font logo with flame logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_NAME_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
 <vertex x="2.21" y="5.41"/>
 <vertex x="2.24" y="5.18"/>
 <vertex x="2.31" y="4.98"/>
@@ -1026,7 +1032,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.84" y="5.41"/>
 <vertex x="2.03" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="10.64" y="5.41"/>
 <vertex x="10.73" y="5.72"/>
 <vertex x="10.78" y="6.04"/>
@@ -1036,7 +1042,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.2" y="5.25"/>
 <vertex x="12" y="4.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="12" y="4.75"/>
 <vertex x="11.73" y="4.31"/>
 <vertex x="11.38" y="3.95"/>
@@ -1140,7 +1146,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10.51" y="5.14"/>
 <vertex x="10.64" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="14.71" y="6.82"/>
 <vertex x="15.07" y="6.86"/>
 <vertex x="15.41" y="6.9"/>
@@ -1157,7 +1163,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.09" y="5.97"/>
 <vertex x="15.01" y="5.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.01" y="5.95"/>
 <vertex x="14.92" y="5.92"/>
 <vertex x="14.84" y="5.89"/>
@@ -1420,7 +1426,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.36" y="6.76"/>
 <vertex x="14.71" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="18.99" y="8.97"/>
 <vertex x="19.18" y="9"/>
 <vertex x="19.36" y="9.03"/>
@@ -1503,7 +1509,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.98" y="7.62"/>
 <vertex x="18.98" y="8.29"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="23.24" y="10.53"/>
 <vertex x="24.79" y="11.38"/>
 <vertex x="24.79" y="7.19"/>
@@ -1517,7 +1523,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.79" y="3.57"/>
 <vertex x="23.24" y="3.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="29.77" y="8.19"/>
 <vertex x="29.58" y="8.19"/>
 <vertex x="29.39" y="8.19"/>
@@ -1647,7 +1653,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.77" y="7.04"/>
 <vertex x="29.77" y="7.61"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="38.14" y="3.57"/>
 <vertex x="37.95" y="3.57"/>
 <vertex x="37.77" y="3.57"/>
@@ -1747,7 +1753,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.15" y="4.99"/>
 <vertex x="38.15" y="4.28"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="39" y="9.23"/>
 <vertex x="39.18" y="9.23"/>
 <vertex x="39.36" y="9.23"/>
@@ -1847,7 +1853,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.98" y="7.82"/>
 <vertex x="38.98" y="8.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="31.97" y="18.94"/>
 <vertex x="31.98" y="18.91"/>
 <vertex x="31.99" y="18.84"/>
@@ -1979,7 +1985,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.2">
-<polygon width="0.00508125" layer="21">
+<description>&lt;h3&gt;SparkFun Font Logo w/ Flame - 0.2" Height - Silkscreen&lt;/h3&gt;
+&lt;p&gt;SparkFun font logo with flame logo&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;SFE_LOGO_NAME_FLAME&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
 <vertex x="1.45" y="2.7"/>
 <vertex x="1.46" y="2.59"/>
 <vertex x="1.5" y="2.49"/>
@@ -2093,7 +2103,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.27" y="2.7"/>
 <vertex x="1.36" y="2.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.66" y="2.71"/>
 <vertex x="5.71" y="2.86"/>
 <vertex x="5.73" y="3.02"/>
@@ -2103,7 +2113,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.44" y="2.62"/>
 <vertex x="6.35" y="2.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.35" y="2.38"/>
 <vertex x="6.21" y="2.16"/>
 <vertex x="6.04" y="1.97"/>
@@ -2205,7 +2215,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.6" y="2.57"/>
 <vertex x="5.66" y="2.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="3.41"/>
 <vertex x="7.88" y="3.43"/>
 <vertex x="8.05" y="3.45"/>
@@ -2222,7 +2232,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.89" y="2.98"/>
 <vertex x="7.85" y="2.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.85" y="2.97"/>
 <vertex x="7.81" y="2.96"/>
 <vertex x="7.77" y="2.94"/>
@@ -2485,7 +2495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.52" y="3.38"/>
 <vertex x="7.7" y="3.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.84" y="4.48"/>
 <vertex x="9.93" y="4.5"/>
 <vertex x="10.03" y="4.51"/>
@@ -2567,7 +2577,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.83" y="3.81"/>
 <vertex x="9.83" y="4.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.96" y="5.26"/>
 <vertex x="12.74" y="5.69"/>
 <vertex x="12.74" y="3.6"/>
@@ -2581,7 +2591,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.74" y="1.79"/>
 <vertex x="11.96" y="1.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.23" y="4.09"/>
 <vertex x="15.13" y="4.09"/>
 <vertex x="15.04" y="4.09"/>
@@ -2711,7 +2721,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.23" y="3.52"/>
 <vertex x="15.23" y="3.81"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.41" y="1.79"/>
 <vertex x="19.32" y="1.79"/>
 <vertex x="19.23" y="1.79"/>
@@ -2809,7 +2819,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.42" y="2.49"/>
 <vertex x="19.42" y="2.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.84" y="4.61"/>
 <vertex x="19.93" y="4.61"/>
 <vertex x="20.03" y="4.61"/>
@@ -2908,7 +2918,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.83" y="3.91"/>
 <vertex x="19.83" y="4.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="16.33" y="9.47"/>
 <vertex x="16.33" y="9.45"/>
 <vertex x="16.34" y="9.42"/>
@@ -3040,7 +3050,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
+<description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
+&lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<polygon width="0.0762" layer="21">
 <vertex x="0.6578" y="-1.588" curve="9.499253"/>
 <vertex x="0.9108" y="-1.4576"/>
 <vertex x="1.5392" y="-1.97"/>
@@ -3077,11 +3091,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
+&lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FRAME_LEDGER&lt;/li&gt;
+&lt;li&gt;FRAME_LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
@@ -3540,10 +3563,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-08437" x="62.23" y="7.62" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
 <element name="JP4" library="SparkFun-Connectors" package="1X02" value="DNP" x="22.86" y="2.54" rot="R180"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="15.24" y="-11.43">
-<attribute name="VERSION" value="v01" x="15.24" y="-11.43" size="1.27" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="DESIGNER" value="Jim Lindblom" x="15.24" y="-11.43" size="1.27" layer="27" font="vector" ratio="15" display="off"/>
-</element>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="15.24" y="-11.43"/>
 <element name="TP3" library="SparkFun-Passives" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="53.975" y="22.59" rot="R180"/>
 <element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="54.737" y="23.59" rot="R180"/>
 <element name="TP2" library="SparkFun-Passives" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="54.737" y="21.59" rot="R180"/>
@@ -4770,8 +4790,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,b86a823cd8bbfac8"/>
 <approved hash="4,16,0019ec10b5f0c42e"/>
 <approved hash="4,16,63f8d49db3bc1d05"/>
-<approved hash="3,1,2c95981651cc3dbc"/>
-<approved hash="3,1,5450219c207055bc"/>
 <approved hash="2,20,d275189457590d5b"/>
 <approved hash="2,20,48e8c784bc53f88a"/>
 <approved hash="2,20,9d744c4d4965bcd0"/>
@@ -4787,15 +4805,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="2,20,da0ce5732f2d526b"/>
 <approved hash="2,20,1f7f2388b8609833"/>
 <approved hash="2,20,359f237581cea53f"/>
-<approved hash="2,20,348c67de2abb39dd"/>
-<approved hash="2,20,1c9a20babac79a8d"/>
-<approved hash="2,20,34434d266cc622a2"/>
 <approved hash="2,20,466d50bd46bd3f35"/>
 <approved hash="2,20,e66ee8f07e6686dc"/>
-<approved hash="2,20,ab0abfa2a9f9d0d1"/>
-<approved hash="2,20,086b6a957831ece8"/>
 <approved hash="2,20,38a6204f8c3f1025"/>
-<approved hash="2,20,d75dcf0b6320fd42"/>
 <approved hash="4,1,4faad577da46de34"/>
 <approved hash="4,1,71988d59e7a1f004"/>
 <approved hash="4,1,33ff61b7940ecc9e"/>
@@ -4856,22 +4868,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,6cc77953de220d7d"/>
 <approved hash="4,1,6ab2ff835fa2d8b8"/>
 <approved hash="4,1,c8046b86ca914b4c"/>
-<approved hash="4,1,51305eded3422697"/>
-<approved hash="4,1,31abf13376837293"/>
-<approved hash="4,1,72537a0e7390ebfa"/>
-<approved hash="4,1,0bb350c991a7e5b1"/>
 <approved hash="4,1,0ae24ed649b60d82"/>
 <approved hash="4,1,07308b048f39030d"/>
 <approved hash="4,1,0a3b3e0f39b80d8c"/>
 <approved hash="4,1,1b307f047b361f02"/>
-<approved hash="4,1,09224d164b380f0c"/>
-<approved hash="4,1,07e38bd78cb70083"/>
-<approved hash="4,1,090c3d383b320f06"/>
-<approved hash="4,1,1be37fd778b81c8c"/>
-<approved hash="4,1,09224d164b380f0c"/>
-<approved hash="4,1,07e38bd78cb70083"/>
-<approved hash="4,1,090c3d383b320f06"/>
-<approved hash="4,1,1be37fd778b81c8c"/>
 <approved hash="4,1,0ae24ed649b60d82"/>
 <approved hash="4,1,07308b048f39030d"/>
 <approved hash="4,1,0a3b3e0f39b80d8c"/>
@@ -4880,40 +4880,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,fa84e59af9f533d5"/>
 <approved hash="4,1,04b98d378c640308"/>
 <approved hash="4,1,83ff6c1f44736f30"/>
-<approved hash="4,1,692c0f405d6116f0"/>
-<approved hash="4,1,4fbe70a4415d8258"/>
-<approved hash="4,1,e3b21498283dd545"/>
-<approved hash="4,1,5616501b178aa028"/>
-<approved hash="4,1,f0fc39a88d167a4c"/>
-<approved hash="4,1,2b7d6be2c2df796b"/>
-<approved hash="4,1,e6e8e6f34230b6a0"/>
-<approved hash="4,1,5a5cc6bab5acc936"/>
-<approved hash="4,1,0bfa4223410316c2"/>
 <approved hash="4,1,48bfbe64f3a0c297"/>
 <approved hash="4,1,98ee451f17a5212e"/>
 <approved hash="4,1,c13a03e202b1bbec"/>
-<approved hash="4,1,bc1c9b6c15cc0657"/>
-<approved hash="4,1,5f65e44e637ee5e3"/>
-<approved hash="4,1,b6cd8316296d1475"/>
-<approved hash="4,1,c284fdff01e8d2a4"/>
-<approved hash="4,1,0bfa4223410316c2"/>
 <approved hash="4,1,aa8dbe4bc4857041"/>
 <approved hash="4,1,5108e05fb3b3e3e4"/>
 <approved hash="4,1,130bbe4bc4855974"/>
-<approved hash="4,1,c3ee6c2eb61cfa87"/>
-<approved hash="4,1,22a8306b782a01a2"/>
-<approved hash="4,1,546f53cf1e3d6a2e"/>
-<approved hash="4,1,a7e40792e59ac097"/>
-<approved hash="4,1,2ba46082e073bca6"/>
-<approved hash="4,1,728837ec1e377a03"/>
-<approved hash="4,1,c546bcd34b4f8631"/>
 <approved hash="4,1,e9b5f25e135bad30"/>
 <approved hash="4,1,56b122faeb4ffdde"/>
 <approved hash="4,1,fbbe9582bf9a9ef2"/>
 <approved hash="4,1,56b122faeb4ffdde"/>
-<approved hash="4,1,1937c745ceb7af7f"/>
-<approved hash="6,1,3bd23b90259025d2"/>
-<approved hash="6,1,3792365028502992"/>
 <approved hash="4,16,155d163b167e1518"/>
 <approved hash="4,16,d7ed830b818fd569"/>
 <approved hash="4,16,37efd709d58e3568"/>
@@ -4940,50 +4916,244 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,2e10a8574bfd5969"/>
 <approved hash="4,16,a0bd625a12870a85"/>
 <approved hash="4,16,4d6be2a3ab83dfa7"/>
-<approved hash="4,16,71ab50acecdf7eea"/>
 <approved hash="4,16,109afc1d4f4fbc80"/>
 <approved hash="4,16,6f2d6d69ea5741fd"/>
 <approved hash="4,16,2ae03612e59129df"/>
 <approved hash="4,16,0ccc189377cb221a"/>
 <approved hash="4,16,30c130f9480bf83c"/>
 <approved hash="4,16,3cab7ce362436224"/>
-<approved hash="4,16,71ab50acecdf7eea"/>
 <approved hash="4,16,6fa9afe403c948c8"/>
 <approved hash="4,16,b9eff3a8b814cc7e"/>
-<approved hash="4,16,53b0535c50102a17"/>
-<approved hash="4,16,372a425273837093"/>
-<approved hash="4,16,7653f0897e90e5fa"/>
-<approved hash="4,16,6e8c574af216e6b1"/>
 <approved hash="4,16,b2da8317836b1482"/>
 <approved hash="4,16,a2065f51da5d9dbf"/>
 <approved hash="4,16,6ecd44c6ebe98d2c"/>
 <approved hash="4,16,15d822ce9619b5b7"/>
-<approved hash="4,16,09224d164b380f0c"/>
-<approved hash="4,16,07e38bd78cb70083"/>
-<approved hash="4,16,090c3d383b320f06"/>
-<approved hash="4,16,1be37fd778b81c8c"/>
 <approved hash="4,16,0ae24ed649b60d82"/>
 <approved hash="4,16,07308b048f39030d"/>
 <approved hash="4,16,0a3b3e0f39b80d8c"/>
 <approved hash="4,16,1b307f047b361f02"/>
 <approved hash="4,16,5cf661d4aedbffad"/>
 <approved hash="4,16,02bf82337c5c5f00"/>
-<approved hash="4,16,768fa644daa25bcc"/>
-<approved hash="4,16,a8fe1fdb51955600"/>
-<approved hash="4,16,663369f51e495f1a"/>
-<approved hash="4,16,058a516632bf936c"/>
 <approved hash="4,16,62bec23060860f63"/>
 <approved hash="4,16,1c6bcd86ebaa6c23"/>
 <approved hash="4,16,938a33ca4a0438b3"/>
 <approved hash="4,16,d58ed85a322426e9"/>
 <approved hash="4,16,ec10ac76f343f8dd"/>
 <approved hash="4,16,d3bb19073019f395"/>
+<approved hash="4,16,71ab50acecdf7eea"/>
+<approved hash="3,1,2c95981651cc3dbc"/>
+<approved hash="3,1,5450219c207055bc"/>
+<approved hash="2,20,fc9e86d0fa1a7c0b"/>
+<approved hash="2,20,c7264776e365d213"/>
+<approved hash="2,20,984a5d354a73b20b"/>
+<approved hash="2,20,4e6654eef2a81ee9"/>
+<approved hash="2,20,9a3f7853eb92ca0c"/>
+<approved hash="2,20,58dca0234d6fdfb5"/>
+<approved hash="2,20,c43647d3b773919f"/>
+<approved hash="2,20,c8a648f11d05a673"/>
+<approved hash="2,20,cdc92030e862aa16"/>
+<approved hash="2,20,db7ab9138fbcaf2b"/>
+<approved hash="2,20,29670716363b7250"/>
+<approved hash="2,20,877ee70b82188434"/>
+<approved hash="2,20,5d32657a2cd75263"/>
+<approved hash="2,20,187e2452b81f9849"/>
+<approved hash="2,20,31c7237801582532"/>
+<approved hash="2,20,348c67de2abb39dd"/>
+<approved hash="2,20,1c9a20babac79a8d"/>
+<approved hash="2,20,34434d266cc622a2"/>
+<approved hash="2,20,c568d0c8c607b8f7"/>
+<approved hash="2,20,660d689d7ef18682"/>
+<approved hash="2,20,ab0abfa2a9f9d0d1"/>
+<approved hash="2,20,086b6a957831ece8"/>
+<approved hash="2,20,bf7fa0f50c469320"/>
+<approved hash="2,20,d75dcf0b6320fd42"/>
+<approved hash="4,1,798446dd3ffded96"/>
+<approved hash="4,1,e1553e435a60f7f2"/>
+<approved hash="4,1,8169acb09dd7fbdf"/>
+<approved hash="4,1,67aa027157f0bb92"/>
+<approved hash="4,1,467d14fb8e76965b"/>
+<approved hash="4,1,4c43159c232cb9cf"/>
+<approved hash="4,1,304f55905f5ad65a"/>
+<approved hash="4,1,2d3d6e6e570df5a1"/>
+<approved hash="4,1,249f0607aa3f9ad6"/>
+<approved hash="4,1,9bc48b2a8b670d7d"/>
+<approved hash="4,1,51a6049b89a6005e"/>
+<approved hash="4,1,c5ce29bf2aac5001"/>
+<approved hash="4,1,059821e85266bf5e"/>
+<approved hash="4,1,1ddc58438b0ef710"/>
+<approved hash="4,1,1983c384aba2617a"/>
+<approved hash="4,1,ffe6484ace10dc4d"/>
+<approved hash="4,1,07c6d54a7259e3df"/>
+<approved hash="4,1,254e136769c6d2ad"/>
+<approved hash="4,1,5a7ec428db12fb79"/>
+<approved hash="4,1,fbb10405833786b4"/>
+<approved hash="4,1,d79e5f190116f86b"/>
+<approved hash="4,1,a6ab0e7003b0c719"/>
+<approved hash="4,1,cd249a100681bdc1"/>
+<approved hash="4,1,9d5f2a6547184fa0"/>
+<approved hash="4,1,aee477411af866ea"/>
+<approved hash="4,1,b9a6fabfd597ab64"/>
+<approved hash="4,1,6092bbb33af77313"/>
+<approved hash="4,1,73da47525c3869a5"/>
+<approved hash="4,1,836c29204bffeeb3"/>
+<approved hash="4,1,4ad78ad78346d6f4"/>
+<approved hash="4,1,070bc841e732d895"/>
+<approved hash="4,1,9951c686f4d03bce"/>
+<approved hash="4,1,df3470224b32d315"/>
+<approved hash="4,1,11320475a569d960"/>
+<approved hash="4,1,6bc4a301a9b0b410"/>
+<approved hash="4,1,f60b7e39074efbb2"/>
+<approved hash="4,1,15060fc7cc4706b4"/>
+<approved hash="4,1,d56f333414579e6c"/>
+<approved hash="4,1,6381a7f9ac0a2320"/>
+<approved hash="4,1,3d3979106b0f50aa"/>
+<approved hash="4,1,96433acd68521980"/>
+<approved hash="4,1,d27c1787146103cb"/>
+<approved hash="4,1,53fbc7eeeacf5c3d"/>
+<approved hash="4,1,559681d10c44db29"/>
+<approved hash="4,1,a006b17a9abff648"/>
+<approved hash="4,1,4ea0985a79f4e460"/>
+<approved hash="4,1,bc5b78f7b7482b41"/>
+<approved hash="4,1,868a3ccb937bccaa"/>
+<approved hash="4,1,66935af219a3d124"/>
+<approved hash="4,1,ebfb01821f3af291"/>
+<approved hash="4,1,c28c963a51e66eaa"/>
+<approved hash="4,1,28dd441f2488e7e7"/>
+<approved hash="4,1,b3d00bb16e008721"/>
+<approved hash="4,1,ce2bf58d0f1c5114"/>
+<approved hash="4,1,bcea8a403cab4d25"/>
+<approved hash="4,1,051411517dc77a2a"/>
+<approved hash="4,1,0687406d9abd2e96"/>
+<approved hash="4,1,e7437f1f9f727c9c"/>
+<approved hash="4,1,1b1931059a49422a"/>
+<approved hash="4,1,a83cd1e4ddf6deda"/>
+<approved hash="4,1,51305eded3422697"/>
+<approved hash="4,1,31abf13376837293"/>
+<approved hash="4,1,72537a0e7390ebfa"/>
+<approved hash="4,1,0bb350c991a7e5b1"/>
+<approved hash="4,1,0dfe49ca49280d1c"/>
+<approved hash="4,1,043788038fb70383"/>
+<approved hash="4,1,0d1c3928393e0d0a"/>
+<approved hash="4,1,18377c037bb81f8c"/>
+<approved hash="4,1,09224d164b380f0c"/>
+<approved hash="4,1,07e38bd78cb70083"/>
+<approved hash="4,1,090c3d383b320f06"/>
+<approved hash="4,1,1be37fd778b81c8c"/>
+<approved hash="4,1,09224d164b380f0c"/>
+<approved hash="4,1,07e38bd78cb70083"/>
+<approved hash="4,1,090c3d383b320f06"/>
+<approved hash="4,1,1be37fd778b81c8c"/>
+<approved hash="4,1,0dfe49ca49280d1c"/>
+<approved hash="4,1,043788038fb70383"/>
+<approved hash="4,1,0d1c3928393e0d0a"/>
+<approved hash="4,1,18377c037bb81f8c"/>
+<approved hash="4,1,e16641b9d38a71dc"/>
+<approved hash="4,1,faba3f0e791dbc4d"/>
+<approved hash="4,1,04938d24f7150357"/>
+<approved hash="4,1,83c1b68bc49bf770"/>
+<approved hash="4,1,692c0f405d6116f0"/>
+<approved hash="4,1,4fbe70a4415d8258"/>
+<approved hash="4,1,e3b21498283dd545"/>
+<approved hash="4,1,5616501b178aa028"/>
+<approved hash="4,1,f0fc39a88d167a4c"/>
+<approved hash="4,1,2b7d6be2c2df796b"/>
+<approved hash="4,1,e6e8e6f34230b6a0"/>
+<approved hash="4,1,5a5cc6bab5acc936"/>
+<approved hash="4,1,0bfa4223410316c2"/>
+<approved hash="4,1,3e3d74dd7d5091c7"/>
+<approved hash="4,1,182bc535179521c5"/>
+<approved hash="4,1,0af1fd58c0d62841"/>
+<approved hash="4,1,bc1c9b6c15cc0657"/>
+<approved hash="4,1,5f65e44e637ee5e3"/>
+<approved hash="4,1,b6cd8316296d1475"/>
+<approved hash="4,1,c284fdff01e8d2a4"/>
+<approved hash="4,1,0bfa4223410316c2"/>
+<approved hash="4,1,e5a24cf0fc78595d"/>
+<approved hash="4,1,d129e01fb3ace3c0"/>
+<approved hash="4,1,5c244cf0fc784130"/>
+<approved hash="4,1,c3ee6c2eb61cfa87"/>
+<approved hash="4,1,22a8306b782a01a2"/>
+<approved hash="4,1,546f53cf1e3d6a2e"/>
+<approved hash="4,1,a7e40792e59ac097"/>
+<approved hash="4,1,2ba46082e073bca6"/>
+<approved hash="4,1,728837ec1e377a03"/>
+<approved hash="4,1,c546bcd34b4f8631"/>
+<approved hash="4,1,15c419d048b0314b"/>
+<approved hash="4,1,1cb3b37b205e4c4d"/>
+<approved hash="4,1,090a5709f0583cdc"/>
+<approved hash="4,1,1cb3b37b205e4c4d"/>
+<approved hash="4,1,1937c745ceb7af7f"/>
+<approved hash="6,1,3bd23b90259025d2"/>
+<approved hash="6,1,3792365028502992"/>
+<approved hash="4,16,196c1a0a14cc17aa"/>
+<approved hash="4,16,d9ed0d0b03c9d72f"/>
+<approved hash="4,16,275fca39c4c629a0"/>
+<approved hash="4,16,065c6b3a65c808ae"/>
+<approved hash="4,16,1dfc1e9a1e881dee"/>
+<approved hash="4,16,65fd3e9b3e8e65e8"/>
+<approved hash="4,16,037fef99ef9a037c"/>
+<approved hash="4,16,02cdefabefa802ce"/>
+<approved hash="4,16,8653aa50b9c27e5a"/>
+<approved hash="4,16,66483fc576f00939"/>
+<approved hash="4,16,73fba25fa00f8f16"/>
+<approved hash="4,16,1a70b83b1ae3234e"/>
+<approved hash="4,16,58162089033a467c"/>
+<approved hash="4,16,07c6d54a7259e3df"/>
+<approved hash="4,16,254e136769c6d2ad"/>
+<approved hash="4,16,42ae80353c0ab5a8"/>
+<approved hash="4,16,4f83320d066e3e4f"/>
+<approved hash="4,16,2899276189a1c38c"/>
+<approved hash="4,16,c372cf508e69461b"/>
+<approved hash="4,16,cfeb9bdc50f4283a"/>
+<approved hash="4,16,836c29204bffeeb3"/>
+<approved hash="4,16,4ad78ad78346d6f4"/>
+<approved hash="4,16,ca039d3fb76b5ecb"/>
+<approved hash="4,16,df3470224b32d315"/>
+<approved hash="4,16,11320475a569d960"/>
+<approved hash="4,16,703359e7c0b38cbf"/>
+<approved hash="4,16,298b274a612ad5fe"/>
+<approved hash="4,16,8446ede1393ed593"/>
+<approved hash="4,16,3dc78346342e5978"/>
+<approved hash="4,16,44abf8a3fe46e680"/>
+<approved hash="4,16,8c0a960976d12272"/>
+<approved hash="4,16,eff61913e13e7085"/>
+<approved hash="4,16,2d748ee6ef061635"/>
+<approved hash="4,16,ebfb01821f3af291"/>
+<approved hash="4,16,c28c963a51e66eaa"/>
+<approved hash="4,16,53b0535c50102a17"/>
+<approved hash="4,16,372a425273837093"/>
+<approved hash="4,16,7653f0897e90e5fa"/>
+<approved hash="4,16,6e8c574af216e6b1"/>
+<approved hash="4,16,35cb5934033a946e"/>
+<approved hash="4,16,d48fb1deb9725cea"/>
+<approved hash="4,16,a1e2bd4fd30e8d81"/>
+<approved hash="4,16,684e18ad43367f52"/>
+<approved hash="4,16,09224d164b380f0c"/>
+<approved hash="4,16,07e38bd78cb70083"/>
+<approved hash="4,16,090c3d383b320f06"/>
+<approved hash="4,16,1be37fd778b81c8c"/>
+<approved hash="4,16,0dfe49ca49280d1c"/>
+<approved hash="4,16,043788038fb70383"/>
+<approved hash="4,16,0d1c3928393e0d0a"/>
+<approved hash="4,16,18377c037bb81f8c"/>
+<approved hash="4,16,768fa644daa25bcc"/>
+<approved hash="4,16,a73fec0105784ba9"/>
+<approved hash="4,16,8cfbbf5a6117292b"/>
+<approved hash="4,16,a8fe1fdb51955600"/>
+<approved hash="4,16,663369f51e495f1a"/>
+<approved hash="4,16,058a516632bf936c"/>
+<approved hash="4,16,9cae4db4eb9b6cc8"/>
+<approved hash="4,16,2c04fe526559a8c1"/>
+<approved hash="4,16,55aed81a322726cd"/>
+<approved hash="4,16,dca5c17172f13377"/>
+<approved hash="4,16,538599cfb04bcdd5"/>
+<approved hash="4,16,19bab7a4aed25441"/>
 <approved hash="19,16,befdf6f2d6d2e6b6"/>
 <approved hash="19,16,66ce77aed616bfe7"/>
-<approved hash="19,16,db24ec777ff432ff"/>
 <approved hash="19,16,dbe5b306a7e7b3c0"/>
-<approved hash="19,16,490a45914ffb3938"/>
+<approved hash="19,16,db24ec777ff432ff"/>
 <approved hash="19,16,49aa1d5f9789bfb8"/>
+<approved hash="19,16,490a45914ffb3938"/>
 </errors>
 </board>
 </drawing>
