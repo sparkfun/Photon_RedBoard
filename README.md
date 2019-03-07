@@ -1,7 +1,7 @@
 SparkFun Photon RedBoard
 ========================================
 
-![SparkFun Photon RedBoard](https://cdn.sparkfun.com//assets/parts/1/0/6/0/9/13321-05a.jpg)
+![SparkFun Photon RedBoard](https://cdn.sparkfun.com//assets/parts/1/0/6/0/9/13321-01.jpg)
 
 [*SparkFun Photon RedBoard (DEV-13321)*](https://www.sparkfun.com/products/13321)
 
@@ -17,6 +17,7 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/photon-redboard-hookup-guide)** - Basic hookup guide for the SparkFun Photon RedBoard.
+* **[Experiment Guide](https://learn.sparkfun.com/tutorials/photon-redboard-hookup-guide)** - Experiment guide for the SparkFun Photon RedBoard to send and receive data over WiFi.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
