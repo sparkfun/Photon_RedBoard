@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -232,7 +232,7 @@
 <text x="53.34" y="40.386" size="1.27" layer="21" font="vector" ratio="15" align="top-center">ARM JTAG</text>
 <text x="20.32" y="4.064" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-left">VBAT</text>
 <text x="22.86" y="4.064" size="1.27" layer="21" font="vector" ratio="15" rot="R90" align="center-left">GND</text>
-<text x="1.905" y="1.6764" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="top-center">v10</text>
+<text x="1.905" y="1.6764" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="top-center">v11</text>
 <text x="6.096" y="1.016" size="1.016" layer="21" font="vector" ratio="15" align="center-left">4.5-15V</text>
 <wire x1="1.524" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="3.6068" y2="1.7526" width="0.254" layer="21" curve="-131.82017"/>
